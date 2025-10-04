@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Mortezaa97\Sliders\Filament\Resources\Slides\Schemas;
 
 use Filament\Schemas\Schema;

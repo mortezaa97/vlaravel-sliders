@@ -1,12 +1,14 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Mortezaa97\Sliders\Filament\Resources\Slides\Pages;
 
-use Mortezaa97\Sliders\Filament\Resources\Slides\SlideResource;
 use Filament\Actions\DeleteAction;
 use Filament\Actions\ForceDeleteAction;
 use Filament\Actions\RestoreAction;
 use Filament\Resources\Pages\EditRecord;
+use Mortezaa97\Sliders\Filament\Resources\Slides\SlideResource;
 
 class EditSlide extends EditRecord
 {

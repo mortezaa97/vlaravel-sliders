@@ -6,7 +6,6 @@ namespace Mortezaa97\Sliders;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
-use Mortezaa97\Reviews\Filament;
 use Mortezaa97\Sliders\Filament\Resources\Sliders\SliderResource;
 use Mortezaa97\Sliders\Filament\Resources\Slides\SlideResource;
 
