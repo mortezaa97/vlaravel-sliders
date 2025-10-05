@@ -22,6 +22,7 @@ class SlideResource extends JsonResource
             'image' => $this->image ? url($this->image) : null,
             'video' => $this->video ? url($this->video) : null,
             'created_by' => $this->created_by,
+            'desc' => $this->desc,
         ];
     }
 }
