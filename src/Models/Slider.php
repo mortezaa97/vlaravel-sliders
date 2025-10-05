@@ -27,8 +27,11 @@ class Slider extends Model
     {
         parent::boot();
 
-        static::creating(function ($item): void { // before delete() method call this
-            $item->code = Str::random(5);
+        static::creating(function ($item): void {
+            // Generate a unique code for the slider
+            do {
+                $item->code = Str::random(5);
+            } while (static::where('code', $item->code)->exists());
         });
     }
     /*
