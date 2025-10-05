@@ -1,11 +1,13 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Mortezaa97\Sliders;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Mortezaa97\Sliders\Skeleton\SkeletonClass
+ * @see Skeleton\SkeletonClass
  */
 class SlidersFacade extends Facade
 {
