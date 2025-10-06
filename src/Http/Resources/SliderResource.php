@@ -17,11 +17,10 @@ class SliderResource extends JsonResource
     public function toArray($request)
     {
         return [
-            'id' => $this->id,
             'code' => $this->code,
             'name' => $this->name,
-            'create_by' => $this->create_by,
-            'slides' => SlideResource::collection($this->slides),
+            'created_by' => $this->created_by,
+            'slides' => SlideResource::collection($this->whenLoaded('slides')),
         ];
     }
 }
