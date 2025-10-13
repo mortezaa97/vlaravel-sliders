@@ -20,6 +20,7 @@ class SlideForm
                             \Filament\Forms\Components\Select::make('slider_id')->relationship('slider', 'name')->required(),
                             \App\Filament\Components\Form\ImageFileUpload::create(),
                             \App\Filament\Components\Form\VideoFileUpload::create(),
+                            \App\Filament\Components\Form\DescTextarea::create(),
                             \App\Filament\Components\Form\CreatedBySelect::create()->required(),
                             \App\Filament\Components\Form\UpdatedBySelect::create(),
 
