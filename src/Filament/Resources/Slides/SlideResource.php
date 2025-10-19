@@ -29,7 +29,7 @@ class SlideResource extends Resource
 
     protected static string|null|UnitEnum $navigationGroup = 'اسلایدرها';
 
-    protected static ?string $recordTitleAttribute = 'اسلاید';
+    protected static ?string $recordTitleAttribute = 'title';
 
     public static function form(Schema $schema): Schema
     {
